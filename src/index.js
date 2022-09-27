@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'; 
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css'
+import Recipe from './scripts/food.js'
+
 //import Navigator from './scripts/navbar.js';
 //import ProfileDropdown from './scripts/dropdown';
 //import Container from 'react-bootstrap/Container';
@@ -12,5 +14,6 @@ root.render(
     <>
         <h1 className="title mb-3">Cooking Daddy</h1>
         <Filters/>
+        <Recipe/>
     </>
 );
